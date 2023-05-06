@@ -19,4 +19,4 @@ Las especificaciones de diseño y las imágenes a utilizar se obtuvo de Figma.
 **Github**
 
 Enlace de la página desplegada en Github:
-https://santiagochong.github.io/web_project_4_esp/
+https://santiagochong.github.io/around-react_es/
