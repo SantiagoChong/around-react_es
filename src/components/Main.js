@@ -1,3 +1,4 @@
+import React from "react";
 import pencil from "../images/pencil.svg";
 import addButton from "../images/add_button.svg";
 import Card from "./Card";
