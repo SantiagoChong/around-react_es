@@ -1,0 +1,7 @@
+.cards__rectangle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 246px;
+  height: 79px;
+}

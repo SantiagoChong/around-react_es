@@ -1,0 +1,12 @@
+.popup__toggle_close_image {
+  position: absolute;
+  top: 55px;
+  right: -35px;
+}
+
+@media screen and (max-width: 580px) {
+  .popup__toggle_close_image {
+    top: 110px;
+    right: -20px;
+  }
+}

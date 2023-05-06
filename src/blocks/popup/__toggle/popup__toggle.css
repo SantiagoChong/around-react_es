@@ -1,0 +1,17 @@
+.popup__toggle {
+  align-self: flex-end;
+  width: 32px;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.popup__toggle:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 580px) {
+  .popup__toggle {
+    width: 18px;
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,23 @@
+.cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 880px;
+  margin: 0;
+  padding: 0;
+  gap: 20px 17px;
+}
+
+@media screen and (max-width: 880px) {
+  .cards {
+    max-width: 581px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cards {
+    max-width: 282px;
+    margin: auto;
+  }
+}

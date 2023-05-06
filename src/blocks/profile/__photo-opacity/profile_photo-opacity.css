@@ -1,0 +1,18 @@
+.profile__photo-opacity {
+  background-color: #000;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 0;
+  opacity: 0;
+  transition: opacity 0.6s;
+  cursor: pointer;
+}
+
+.profile__photo-opacity:hover {
+  opacity: 80%;
+}
