@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import pencil from "../images/pencil.svg";
 import addButton from "../images/add_button.svg";
 import Card from "./Card";
-import {CurrentUserContext} from "../contetxs/CurrentUserContext";
+import {CurrentUserContext} from "../contexts/CurrentUserContext";
 
 export default function Main(props) {
   const currentUser = useContext(CurrentUserContext);

@@ -1,16 +1,15 @@
 import "../index.css";
 import React, {useState, useEffect} from "react";
-import Header from "./Hearder";
+import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
-//import PopupWithForm from "./PopupWithForm";
 import EditProfilePopup from "./EditProfilePopup";
 import EditAvatarPopup from "./EditAvatarPopup";
 import AddPlacePopup from "./AddPlacePopup";
 import DeletePlacePopup from "./DeletePlacePopup";
 import ImagePopup from "./ImagePopup";
 import api from "../utils/api";
-import {CurrentUserContext} from "../contetxs/CurrentUserContext";
+import {CurrentUserContext} from "../contexts/CurrentUserContext";
 
 export default function App() {
   const [isEditProfilePopUpOpen, setIsEditProfilePopUpOpen] = useState(false);
