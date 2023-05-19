@@ -62,6 +62,10 @@ class Api {
     return this._useFetch(`${this._baseUrl}/cards/likes/${cardId}`, "DELETE");
   }
 
+  changeLikeCardStatus(cardId, liked) {
+    return liked ? this.addCardLike(cardId) : this.deleteCardLike(cardId);
+  }
+
   newAvatar(link) {
     return this._useFetch(`${this._baseUrl}/users/me/avatar`, "PATCH", {
       avatar: link,
